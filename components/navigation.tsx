@@ -25,7 +25,7 @@ export function Navigation() {
           <div className='flex items-center space-x-4'>
             <Button variant='ghost' size='sm' asChild>
               <Link
-                href='https://github.com'
+                href='https://github.com/CallejaJ/favicon-generator-v0'
                 target='_blank'
                 rel='noopener noreferrer'
               >
