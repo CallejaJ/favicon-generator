@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Navigation } from "@/components/navigation";
 import { FaviconGenerator } from "@/components/favicon-generator";
 import { FaviconPreview } from "@/components/favicon-preview";
+import { Footer } from "@/components/footer";
 import {
   Card,
   CardContent,
@@ -29,8 +30,8 @@ const features = [
   {
     icon: Sparkles,
     title: "Icon Selection",
-    description: "Choose from 32 professionally designed Lucide icons",
-    badge: "32 Icons",
+    description: "Choose from 64 professionally designed Lucide icons",
+    badge: "64 Icons",
   },
   {
     icon: Shapes,
@@ -103,10 +104,10 @@ export default function HomePage() {
   });
 
   return (
-    <div className='min-h-screen bg-background'>
+    <div className='min-h-screen bg-background flex flex-col'>
       <Navigation />
 
-      <main className='container mx-auto px-4 py-8'>
+      <main className='container mx-auto px-4 py-8 flex-1'>
         {/* Hero Section */}
         <div className='text-center mb-12'>
           <h1 className='text-4xl font-bold tracking-tight mb-4'>
@@ -195,6 +196,8 @@ export default function HomePage() {
           </div>
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 }
