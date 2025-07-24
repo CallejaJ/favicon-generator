@@ -25,7 +25,7 @@ export function Footer() {
             <div className='flex space-x-2'>
               <Button variant='ghost' size='sm' asChild>
                 <Link
-                  href='https://github.com'
+                  href='https://github.com/CallejaJ/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
